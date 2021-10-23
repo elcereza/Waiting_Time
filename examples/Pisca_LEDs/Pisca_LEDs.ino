@@ -16,7 +16,7 @@
 #define LED2 9
 #define LED3 6
 
-Waiting_Time time(3);                                                 // Define quantos 'wait' serão usados
+Waiting_Time t(3);                                                 // Define quantos 'wait' serão usados
 
 void setup() {
   pinMode(LED1, 1);
@@ -25,12 +25,12 @@ void setup() {
 }
 
 void loop() {
-  if(time.wait(1000, 0))                                              // Aguarda 1000ms armazenado em 0
+  if(t.wait(1000, 0))                                              // Aguarda 1000ms armazenado em 0
     digitalWrite(LED1, !digitalRead(LED1));
     
-  if(time.wait(2500, 1))                                              // Aguarda 2500ms armazenado em 1
+  if(t.wait(2500, 1))                                              // Aguarda 2500ms armazenado em 1
     digitalWrite(LED2, !digitalRead(LED2));
 
-  if(time.wait(4500, 2))                                              // Aguarda 4500ms armazenado em 2
+  if(t.wait(4500, 2))                                              // Aguarda 4500ms armazenado em 2
     digitalWrite(LED3, !digitalRead(LED3));
 }
