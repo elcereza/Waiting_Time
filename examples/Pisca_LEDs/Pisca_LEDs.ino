@@ -5,7 +5,8 @@
   só aproveita 100% do clock do microcontrolador.
   
   Site  : https://elcereza.com/waiting_time
-  Autor : Elcereza
+  Autor : Gustavo Cereza
+  Disponibilizado por : Elcereza
   Redes : @ellcereza
   Canal : https://t.me/elcereza
 =======================================================================*/
