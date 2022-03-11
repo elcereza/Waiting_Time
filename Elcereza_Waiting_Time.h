@@ -19,7 +19,7 @@
   along with this program. Otherwise, see https://www.gnu.org/licenses/ 
  ----------------------------------------------------------------------------*/
 
-#ifndef Elcereza_Waiting_Time.h
+#ifdef Elcereza_Waiting_Time.h
 #define Elcereza_Waiting_Time.h
 
 #include "Arduino.h"
